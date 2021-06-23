@@ -1,0 +1,26 @@
+<!DOCTYPE html>
+<html>
+  <head>
+    <title>Calendar, To-do list and clock</title>
+    <link href="calendar.css" rel="stylesheet">
+    <script src="calendar.js"></script>
+  </head>
+  <body onload="startTime()">
+    <div id="clockdate">
+      <div class="clockdate-wrapper">
+        <div id="clock"></div>
+        <div id="date"></div>
+      </div>
+    </div>
+    <h1>Calendar</h1>
+    <div id="cal-wrap">
+      <div id="cal-date">
+        <select id="cal-mth"></select>
+        <select id="cal-yr"></select>
+        <input id="cal-set" type="button" value="Submit"/>
+      </div>
+      <div id="cal-container"></div>
+      <div id="cal-event"></div>
+    </div>
+  </body>
+</html>
